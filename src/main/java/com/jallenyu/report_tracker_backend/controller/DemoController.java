@@ -1,7 +1,6 @@
 package com.jallenyu.report_tracker_backend.controller;
 
 import com.jallenyu.report_tracker_backend.entity.Demo;
-import com.jallenyu.report_tracker_backend.entity.Report;
 import com.jallenyu.report_tracker_backend.service.DemoService;
 import org.springframework.web.bind.annotation.*;
 

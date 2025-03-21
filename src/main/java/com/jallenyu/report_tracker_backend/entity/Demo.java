@@ -15,6 +15,7 @@ import java.util.List;
 public class Demo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @JsonProperty("reportId")
     private Long reportId;
 
     @JsonProperty("clientName")
