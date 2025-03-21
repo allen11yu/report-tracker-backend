@@ -14,10 +14,6 @@ public class DemoService {
         this.repository = repository;
     }
 
-    public Demo addDemoReport(Demo demoReport) {
-        return repository.save(demoReport);
-    }
-
     public List<Demo> getDemoReports() {
         return repository.findAll();
     }

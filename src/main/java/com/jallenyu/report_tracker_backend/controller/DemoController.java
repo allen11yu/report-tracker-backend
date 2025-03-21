@@ -16,11 +16,6 @@ public class DemoController {
         this.service = service;
     }
 
-    @PostMapping("/add")
-    public Demo addDemoReport(@RequestBody Demo demoReport) {
-        return service.addDemoReport(demoReport);
-    }
-
     @GetMapping("/reports")
     public List<Demo> getDemoReports() {
         return service.getDemoReports();
